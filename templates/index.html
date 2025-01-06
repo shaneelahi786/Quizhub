@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .search-container {
+            display: flex;
+            width: 100%;
+        }
+        input[type="text"] {
+            padding: 10px;
+            flex: 1;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        #results {
+            margin-top: 20px;
+        }
+        .results-container {
+            background-color: #004d00;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #f9ffba;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Search for a Quiz</h1>
+    <div class="search-container">
+        <input type="text" id="query" placeholder="Enter class or subject">
+    </div>
+
+    <h3>Search Results:</h3>
+    <div id="results"></div>
+
+    <script>
+        // Live search implementation
+        const queryInput = document.getElementById('query');
+        const resultsContainer = document.getElementById('results');
+
+        queryInput.addEventListener('input', () => {
+            const query = queryInput.value.trim();
+            if (query.length > 0) {
+                fetch(`/search?query=${query}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        resultsContainer.innerHTML = '';
+                        if (data.length > 0) {
+                            data.forEach(file => {
+                                const greenBox = document.createElement('div');
+                                greenBox.className = 'results-container';
+
+                                // Format file name
+                                const fileName = file.replace('.json', '').replace(/_/g, ' ');
+
+                                greenBox.innerHTML = `<a href="/quiz/${file}">${fileName}</a>`;
+                                resultsContainer.appendChild(greenBox);
+                            });
+                        } else {
+                            resultsContainer.innerHTML = '<div class="results-container">No results found</div>';
+                        }
+                    })
+                    .catch(err => console.error('Error:', err));
+            } else {
+                resultsContainer.innerHTML = ''; // Clear results if input is empty
+            }
+        });
+    </script>
+</body>
+</html>
+

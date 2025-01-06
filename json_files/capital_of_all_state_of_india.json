@@ -1,0 +1,147 @@
+{
+    "subject": "Geography",
+    "class": 10,
+    "questions": [
+        {
+            "question": "What is the capital of Andhra Pradesh?",
+            "options": ["Amaravati", "Hyderabad", "Vijayawada", "Visakhapatnam"],
+            "answer": "Amaravati"
+        },
+        {
+            "question": "What is the capital of Arunachal Pradesh?",
+            "options": ["Itanagar", "Dispur", "Gangtok", "Kohima"],
+            "answer": "Itanagar"
+        },
+        {
+            "question": "What is the capital of Assam?",
+            "options": ["Dispur", "Guwahati", "Shillong", "Agartala"],
+            "answer": "Dispur"
+        },
+        {
+            "question": "What is the capital of Bihar?",
+            "options": ["Patna", "Gaya", "Muzaffarpur", "Bhagalpur"],
+            "answer": "Patna"
+        },
+        {
+            "question": "What is the capital of Chhattisgarh?",
+            "options": ["Raipur", "Bilaspur", "Korba", "Durg"],
+            "answer": "Raipur"
+        },
+        {
+            "question": "What is the capital of Goa?",
+            "options": ["Panaji", "Margao", "Vasco da Gama", "Mapusa"],
+            "answer": "Panaji"
+        },
+        {
+            "question": "What is the capital of Gujarat?",
+            "options": ["Gandhinagar", "Ahmedabad", "Rajkot", "Vadodara"],
+            "answer": "Gandhinagar"
+        },
+        {
+            "question": "What is the capital of Haryana?",
+            "options": ["Chandigarh", "Ambala", "Gurugram", "Faridabad"],
+            "answer": "Chandigarh"
+        },
+        {
+            "question": "What is the capital of Himachal Pradesh?",
+            "options": ["Shimla", "Dharamshala", "Mandi", "Kullu"],
+            "answer": "Shimla"
+        },
+        {
+            "question": "What is the capital of Jharkhand?",
+            "options": ["Ranchi", "Jamshedpur", "Dhanbad", "Bokaro"],
+            "answer": "Ranchi"
+        },
+        {
+            "question": "What is the capital of Karnataka?",
+            "options": ["Bengaluru", "Mysuru", "Hubballi", "Belagavi"],
+            "answer": "Bengaluru"
+        },
+        {
+            "question": "What is the capital of Kerala?",
+            "options": ["Thiruvananthapuram", "Kochi", "Kozhikode", "Kannur"],
+            "answer": "Thiruvananthapuram"
+        },
+        {
+            "question": "What is the capital of Madhya Pradesh?",
+            "options": ["Bhopal", "Indore", "Gwalior", "Jabalpur"],
+            "answer": "Bhopal"
+        },
+        {
+            "question": "What is the capital of Maharashtra?",
+            "options": ["Mumbai", "Pune", "Nagpur", "Nashik"],
+            "answer": "Mumbai"
+        },
+        {
+            "question": "What is the capital of Manipur?",
+            "options": ["Imphal", "Churachandpur", "Thoubal", "Senapati"],
+            "answer": "Imphal"
+        },
+        {
+            "question": "What is the capital of Meghalaya?",
+            "options": ["Shillong", "Tura", "Jowai", "Nongstoin"],
+            "answer": "Shillong"
+        },
+        {
+            "question": "What is the capital of Mizoram?",
+            "options": ["Aizawl", "Lunglei", "Champhai", "Serchhip"],
+            "answer": "Aizawl"
+        },
+        {
+            "question": "What is the capital of Nagaland?",
+            "options": ["Kohima", "Dimapur", "Mokokchung", "Tuensang"],
+            "answer": "Kohima"
+        },
+        {
+            "question": "What is the capital of Odisha?",
+            "options": ["Bhubaneswar", "Cuttack", "Rourkela", "Puri"],
+            "answer": "Bhubaneswar"
+        },
+        {
+            "question": "What is the capital of Punjab?",
+            "options": ["Chandigarh", "Ludhiana", "Amritsar", "Jalandhar"],
+            "answer": "Chandigarh"
+        },
+        {
+            "question": "What is the capital of Rajasthan?",
+            "options": ["Jaipur", "Jodhpur", "Udaipur", "Kota"],
+            "answer": "Jaipur"
+        },
+        {
+            "question": "What is the capital of Sikkim?",
+            "options": ["Gangtok", "Pelling", "Namchi", "Geyzing"],
+            "answer": "Gangtok"
+        },
+        {
+            "question": "What is the capital of Tamil Nadu?",
+            "options": ["Chennai", "Coimbatore", "Madurai", "Tiruchirappalli"],
+            "answer": "Chennai"
+        },
+        {
+            "question": "What is the capital of Telangana?",
+            "options": ["Hyderabad", "Warangal", "Nizamabad", "Karimnagar"],
+            "answer": "Hyderabad"
+        },
+        {
+            "question": "What is the capital of Tripura?",
+            "options": ["Agartala", "Udaipur", "Dharmanagar", "Kailashahar"],
+            "answer": "Agartala"
+        },
+        {
+            "question": "What is the capital of Uttar Pradesh?",
+            "options": ["Lucknow", "Kanpur", "Varanasi", "Agra"],
+            "answer": "Lucknow"
+        },
+        {
+            "question": "What is the capital of Uttarakhand?",
+            "options": ["Dehradun", "Haridwar", "Nainital", "Rishikesh"],
+            "answer": "Dehradun"
+        },
+        {
+            "question": "What is the capital of West Bengal?",
+            "options": ["Kolkata", "Darjeeling", "Siliguri", "Howrah"],
+            "answer": "Kolkata"
+        }
+    ]
+}
+

@@ -1,0 +1,56 @@
+{
+    "subject": "Geography",
+    "class": 10,
+    "questions": [
+        {
+            "question": "What is the capital of India?",
+            "options": ["New Delhi", "Mumbai", "Kolkata", "Chennai"],
+            "answer": "New Delhi"
+        },
+        {
+            "question": "What is the capital of the United States?",
+            "options": ["New York", "Los Angeles", "Washington D.C.", "Chicago"],
+            "answer": "Washington D.C."
+        },
+        {
+            "question": "What is the capital of France?",
+            "options": ["Berlin", "Madrid", "Paris", "Rome"],
+            "answer": "Paris"
+        },
+        {
+            "question": "What is the capital of Japan?",
+            "options": ["Seoul", "Beijing", "Tokyo", "Osaka"],
+            "answer": "Tokyo"
+        },
+        {
+            "question": "What is the capital of Germany?",
+            "options": ["Vienna", "Berlin", "Zurich", "Munich"],
+            "answer": "Berlin"
+        },
+        {
+            "question": "What is the capital of Canada?",
+            "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+            "answer": "Ottawa"
+        },
+        {
+            "question": "What is the capital of Russia?",
+            "options": ["Moscow", "St. Petersburg", "Kiev", "Baku"],
+            "answer": "Moscow"
+        },
+        {
+            "question": "What is the capital of Italy?",
+            "options": ["Rome", "Florence", "Venice", "Milan"],
+            "answer": "Rome"
+        },
+        {
+            "question": "What is the capital of Australia?",
+            "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+            "answer": "Canberra"
+        },
+        {
+            "question": "What is the capital of Brazil?",
+            "options": ["Rio de Janeiro", "Sao Paulo", "Brasilia", "Salvador"],
+            "answer": "Brasilia"
+        }
+    ]
+}
